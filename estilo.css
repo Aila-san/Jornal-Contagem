@@ -1,0 +1,133 @@
+header {
+    font-family:'Festive', cursive;
+    font-size: x-large;
+    padding: 0px 0px 0px;
+}
+
+nav ul {
+    background-color: peachpuff;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    letter-spacing: 5px;
+    text-align: center;
+    margin: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+img {
+    float: left;
+    margin: 10px 10px 10px 10px;
+    width: auto;
+    height:180px;
+}
+
+#noticia-direita {
+    float: right;
+}
+
+nav ul li a {
+    color: grey;
+    text-decoration: none;
+    margin: 0px;
+}
+
+nav ul li a:hover {
+     color: black;
+    background-color: rgb(255, 193, 138);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#title {
+    margin: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgba(175, 171, 171, 0.856);
+    text-align: center;
+    text-decoration: none;
+    color:black;
+}
+
+#title:hover {
+    animation-name: colorido;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorido {
+    0% {
+        color: peachpuff;
+    }
+    25% {
+        color:tomato;
+    }
+    50% {
+        color: rgb(206, 113, 206);
+    }
+    75% {
+        color: rgb(79, 44, 139);
+    }
+    100% {
+        color:peachpuff;
+    }
+}
+
+#slogan {
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13px;
+    text-align: center;
+    border-style: inset;
+    letter-spacing: 10px;
+    padding: 2px;
+}
+
+.noticia:active {
+    color: peachpuff;
+}
+
+article {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(175, 171, 171, 0.856);
+    border-style: inset;
+    padding: 25px;
+    text-align: justify;
+}
+
+.noticia {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+mark {
+    background-color: peachpuff;
+}
+
+.note {
+    color:black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+footer {
+    background-color: peachpuff;
+    color: grey;
+    border-top: 3px;
+    border-style: inset;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 10px;
+}
